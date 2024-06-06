@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade HTML JS</title>
+</head>
+<body bgcolor="#7f7287">
+<center>
+    <label style="color: white; font-size: 50px; text-align: left">Tower Defense</label><br><br><br>
+    
+    <label style="color: white; font-size: 20px; text-align: left">Estrutura da Torre&nbsp;</label><input type="number" value="100" id="inptEstrutura" readonly><br><br>
+    <label style="color: white; font-size: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destruir&nbsp;</label><input type="number" id="inptDestroi">
+    <button onclick="DestroiTorre()" style="background-color: #231f20; color: white;">-&nbsp;</button><br><br>
+    <label style="color: white; font-size: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Construir&nbsp;</label><input type="number" id="inptConstroi">
+    <button onclick="ConstroiTorre()" style="background-color: #231f20; color: white;">+</button><br><br><br>    
+    <label style="color: white; font-size: 20px; text-align: left">Situação da Torre&nbsp;</label><input type="text" value="Ativa" id="inptSituacao" readonly>
+    <br><br><button onclick="Reiniciar()">Reiniciar</button>
+</center>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
